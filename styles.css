@@ -1,32 +1,36 @@
 * {
   margin: auto;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  padding: 0;
-  background-color: white;
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 12px;
+.location {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+address {
+  line-height: 90%;
+  margin: 15% auto;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 20px;
+  text-decoration: underline solid green;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 50px auto;
 }
 
 .customers {
   margin: 5%;
   display: flex;
-  /*flex-flow: row wrap;*/
   width: 80%;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.customers div {
-  text-align: center;
-  flex: 1;
-  padding: 20px;
 }
 
 .title {
@@ -38,42 +42,35 @@ body {
   font-weight: bold;
 }
 
-.name {
-  font-weight: 500;
-  font-size: 1rem;
-  border-bottom: 3px dotted green;
-  padding: 10px;
-}
-
 img {
+  background: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
   width: 15em;
   height: 15em;
   border: 2px solid black;
 }
 
-.personEmail {
-  font-size: .3em;
-}
-
-.personEmail:hover, .personPhone:hover {
-  color: green;
-}
-
-.locationInfo {
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  box-sizing: border-box;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  padding: 0;
+  background-color: white;
+  font-size: 12px;
 }
 
-
-/*could not get ssn to show in div, so i am removing it*/
-
-
-/*.ssn {
-  color: transparent;
-  text-shadow: 0 0 5px grey;
+#staff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
-.ssn: hover {
-  color: green;
-  text-shadow: none;
-}*/
