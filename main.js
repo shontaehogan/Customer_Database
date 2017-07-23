@@ -198,7 +198,7 @@ for (let i = 0; i < _data.length; i++) {
 // // add customerContainer to allCustomersContainer
 // allCustomersContainer.appendChild(customerContainer);
 // }
-
+us
 //
 //
 //   fetch('https://randomuser.me/api/?format=json&results=12')
